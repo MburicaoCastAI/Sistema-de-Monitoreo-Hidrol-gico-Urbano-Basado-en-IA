@@ -1,0 +1,18 @@
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <i class="fas fa-water"></i>
+            <h1>Monitoreo Mburicao</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+            <li><a href="{{ '/pages/real-time-forecasting/' | relative_url }}" {% if page.url contains 'real-time-forecasting' %}class="active"{% endif %}>Real Time Forecasting</a></li>
+            <li><a href="{{ '/pages/historical-data/' | relative_url }}" {% if page.url contains 'historical-data' %}class="active"{% endif %}>Historical Data</a></li>
+            <li><a href="{{ '/pages/hydrological-monitoring/' | relative_url }}" {% if page.url contains 'hydrological-monitoring' %}class="active"{% endif %}>Hydrological</a></li>
+            <li><a href="{{ '/pages/rainfall-monitoring/' | relative_url }}" {% if page.url contains 'rainfall-monitoring' %}class="active"{% endif %}>Rainfall</a></li>
+            <li><a href="{{ '/pages/3d-map/' | relative_url }}" {% if page.url contains '3d-map' %}class="active"{% endif %}>3D Map</a></li>
+            <li><a href="{{ '/pages/registrations/' | relative_url }}" {% if page.url contains 'registrations' %}class="active"{% endif %}>Registrations</a></li>
+            <li><a href="{{ '/pages/about/' | relative_url }}" {% if page.url contains 'about' %}class="active"{% endif %}>About Us</a></li>
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,77 @@
+# Site settings
+title: "Monitoreo Urbano Mburicao"
+title_separator: "|"
+name: "Cuencas Urbanas Mburicao"
+description: >-
+  Sistema de monitoreo hidrológico participativo del Arroyo Mburicao.
+  Datos en tiempo real, predicciones y ciencia ciudadana.
+
+# URL configuration
+url: "https://mburicaocastai.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Theme (personalizado)
+theme: minima # Base, luego personalizamos
+# Si prefieres un tema ya hecho, descomenta:
+# remote_theme: "mmistakes/minimal-mistakes"
+
+# Custom variables
+grafana_url: "http://200.10.231.202:3000"
+grafana_api_key: "tu_api_key"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Real Time Forecasting"
+    url: "/pages/real-time-forecasting/"
+  - title: "Historical Data & Predictions"
+    url: "/pages/historical-data/"
+  - title: "Hydrological Monitoring"
+    url: "/pages/hydrological-monitoring/"
+  - title: "Rainfall Monitoring"
+    url: "/pages/rainfall-monitoring/"
+  - title: "3D Map"
+    url: "/pages/3d-map/"
+  - title: "Registrations"
+    url: "/pages/registrations/"
+  - title: "About Us"
+    url: "/pages/about/"
+
+# Collection for citizen science
+collections:
+  reports:
+    output: true
+    permalink: /reports/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default-bilingual"
+      lang: "en"
+  - scope:
+      path: "index-home.md"
+    values:
+      layout: "home-bilingual"
+      lang: "en"
+  - scope:
+      path: "pages_es/"
+    values:
+      layout: "default-bilingual"
+      lang: "es"
+  - scope:
+      path: "pages_es/index.md"
+    values:
+      layout: "home-bilingual"
+      lang: "es"

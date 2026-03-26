@@ -1,0 +1,99 @@
+---
+layout: default
+---
+
+{% include hero.html %}
+
+<section class="features-section">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Plataforma Integral de Monitoreo</h2>
+            <p>Datos en tiempo real, predicciones avanzadas y participación ciudadana</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up">
+                <i class="fas fa-chart-line"></i>
+                <h3>Real Time Forecasting</h3>
+                <p>Predicciones en tiempo real del comportamiento del arroyo</p>
+                <a href="{{ '/pages/real-time-forecasting/' | relative_url }}" class="btn-link">Ver más →</a>
+            </div>
+            
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-water"></i>
+                <h3>Hydrological Monitoring</h3>
+                <p>Monitoreo continuo de caudal, nivel y calidad del agua</p>
+                <a href="{{ '/pages/hydrological-monitoring/' | relative_url }}" class="btn-link">Ver más →</a>
+            </div>
+            
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-cloud-rain"></i>
+                <h3>Rainfall Monitoring</h3>
+                <p>Precipitaciones en tiempo real y pronóstico de lluvias</p>
+                <a href="{{ '/pages/rainfall-monitoring/' | relative_url }}" class="btn-link">Ver más →</a>
+            </div>
+            
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-map"></i>
+                <h3>3D Map</h3>
+                <p>Visualización interactiva 3D de la cuenca</p>
+                <a href="{{ '/pages/3d-map/' | relative_url }}" class="btn-link">Explorar →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .features-section {
+        padding: 4rem 2rem;
+    }
+    
+    .section-header {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    
+    .section-header h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .feature-card {
+        background: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+    }
+    
+    .feature-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .feature-card i {
+        font-size: 3rem;
+        color: #3b82f6;
+        margin-bottom: 1rem;
+    }
+    
+    .feature-card h3 {
+        margin-bottom: 1rem;
+    }
+    
+    .btn-link {
+        display: inline-block;
+        margin-top: 1rem;
+        color: #3b82f6;
+        text-decoration: none;
+        font-weight: 600;
+    }
+</style>
