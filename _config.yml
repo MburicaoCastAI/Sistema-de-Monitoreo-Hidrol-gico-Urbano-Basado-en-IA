@@ -26,7 +26,6 @@ theme: minima # Base, luego personalizamos
 
 # Custom variables
 grafana_url: "http://200.10.231.202:3000"
-grafana_api_key: "tu_api_key"
 
 # Navigation
 navigation:
