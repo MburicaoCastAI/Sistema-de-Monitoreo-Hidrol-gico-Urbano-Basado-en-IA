@@ -1,10 +1,10 @@
 # Site settings
-title: "Monitoreo Urbano Mburicao"
+title_en: "Urban Monitoring Mburicao"
+title_es: "Monitoreo Urbano Mburicao"
 title_separator: "|"
 name: "Cuencas Urbanas Mburicao"
-description: >-
-  Sistema de monitoreo hidrológico participativo del Arroyo Mburicao.
-  Datos en tiempo real, predicciones y ciencia ciudadana.
+description_en: "Participatory hydrological monitoring system for Arroyo Mburicao..."
+description_es: "Sistema de monitoreo hidrológico participativo..."
 
 # URL configuration
 url: "https://mburicaocastai.github.io"
@@ -74,3 +74,11 @@ defaults:
     values:
       layout: "home-bilingual"
       lang: "es"
+
+# Title
+title:
+  {% if page.lang == "es" %}
+    {{ page.title | default: site.title_es }}
+  {% else %}
+    {{ page.title | default: site.title_en }}
+  {% endif %}
