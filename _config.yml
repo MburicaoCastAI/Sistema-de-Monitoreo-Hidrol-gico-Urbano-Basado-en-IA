@@ -8,7 +8,7 @@ description: >-
 
 # URL configuration
 url: "https://mburicaocastai.github.io"
-baseurl: "/Sistema-de-Monitoreo-Hidrol-gico-Urbano-Basado-en-IA"
+baseurl: "/v1"
 
 # Build settings
 markdown: kramdown
