@@ -1,6 +1,6 @@
 ---
-layout: default-bilingual
-title: "Redirect to Spanish Home"
+layout: home-bilingual
+title: "Inicio - Monitoreo Urbano del Arroyo Mburicaó"
 permalink: /es/
-redirect_to: /
+lang: es
 ---

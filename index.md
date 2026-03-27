@@ -1,6 +1,6 @@
 ---
 layout: home-bilingual
-title: Monitoreo Urbano Mburicaó
-lang: en
+title: "Home - Urban Monitoring of Mburicaó Stream"
 permalink: /
+lang: en
 ---

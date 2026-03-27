@@ -1,8 +1,7 @@
 ---
-layout: default-bilingual
+layout: default
 title: "3D Map"
 permalink: /pages/3d-map/
-lang: en
 ---
 
 # Mapa 3D Interactivo

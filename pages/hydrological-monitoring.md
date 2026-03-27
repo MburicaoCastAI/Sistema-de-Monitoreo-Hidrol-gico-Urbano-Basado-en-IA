@@ -1,8 +1,7 @@
 ---
-layout: default-bilingual
+layout: default
 title: "Hydrological Monitoring"
 permalink: /pages/hydrological-monitoring/
-lang: en
 ---
 
 # Monitoreo Hidrológico
