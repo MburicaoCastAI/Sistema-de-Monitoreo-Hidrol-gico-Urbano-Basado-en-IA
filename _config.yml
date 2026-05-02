@@ -77,8 +77,8 @@ defaults:
 
 # Title
 title:
-  {% if page.lang == "es" %}
-    {{ page.title | default: site.title_es }}
-  {% else %}
-    {{ page.title | default: site.title_en }}
-  {% endif %}
+  #{% if page.lang == "es" %}
+  {{ page.title | default: site.title_es }}
+  #{% else %}
+  #  {{ page.title | default: site.title_en }}
+  #{% endif %}
