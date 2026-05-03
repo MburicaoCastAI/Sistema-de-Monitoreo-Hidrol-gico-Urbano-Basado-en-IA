@@ -15,14 +15,14 @@ lang: en
         <div class="monitoring-grid">
     <div class="monitoring-item">
         <h3><i class="fas fa-water"></i> Water Level Monitoring</h3>
-        <img src="https://lmeserver.tail8113d2.ts.net/panels/water-level.png" 
+        <img src="https://lmeserver.tail8113d2.ts.net/water-level.png" 
              alt="Water Level" 
              style="width:100%; height:auto; border:1px solid #ddd;">
     </div>
     
     <div class="monitoring-item">
         <h3><i class="fas fa-cloud-rain"></i> Precipitation Data</h3>
-        <img src="https://lmeserver.tail8113d2.ts.net/panels/precipitation.png" 
+        <img src="https://lmeserver.tail8113d2.ts.net/precipitation.png" 
              alt="Precipitation" 
              style="width:100%; height:auto; border:1px solid #ddd;">
     </div>
