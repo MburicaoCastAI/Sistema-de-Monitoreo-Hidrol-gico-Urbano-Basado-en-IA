@@ -13,16 +13,20 @@ lang: en
         <p>Live monitoring of water levels and rainfall data from the Mburicaó stream in Asunción, Paraguay.</p>
         
         <div class="monitoring-grid">
-            <div class="monitoring-item">
-                <h3><i class="fas fa-water"></i> Water Level Monitoring</h3>
-                <iframe src="https://lmeserver.tail8113d2.ts.net/d-solo/30yTZR8Nz/monitoreo-arroyo-mburicao?orgId=2&from=now-30d&to=now&panelId=4" frameborder="0"></iframe>
-            </div>
-            
-            <div class="monitoring-item">
-                <h3><i class="fas fa-cloud-rain"></i> Precipitation Data</h3>
-                <iframe src="https://lmeserver.tail8113d2.ts.net/d-solo/30yTZR8Nz/monitoreo-arroyo-mburicao?orgId=2&from=now-30d&to=now&panelId=6" frameborder="0"></iframe>
-            </div>
-        </div>
+    <div class="monitoring-item">
+        <h3><i class="fas fa-water"></i> Water Level Monitoring</h3>
+        <img src="https://lmeserver.tail8113d2.ts.net/panels/water-level.png" 
+             alt="Water Level" 
+             style="width:100%; height:auto; border:1px solid #ddd;">
+    </div>
+    
+    <div class="monitoring-item">
+        <h3><i class="fas fa-cloud-rain"></i> Precipitation Data</h3>
+        <img src="https://lmeserver.tail8113d2.ts.net/panels/precipitation.png" 
+             alt="Precipitation" 
+             style="width:100%; height:auto; border:1px solid #ddd;">
+    </div>
+</div>
         
         <div class="info-box">
             <h3>About This Monitoring System</h3>
